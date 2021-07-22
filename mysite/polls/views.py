@@ -17,7 +17,7 @@ except ImportError:
     from io import StringIO as IO
 import datetime
 
-ENGINE = create_engine('mysql+pymysql://root:wangheng66941248@17.87.1.78:3306/Polls_DB')
+ENGINE = create_engine('mysql+pymysql://root:1111@11.11.11.11:1101/Polls_DB')
 DB_TABLE = "DummyData"
 D_MULTI_SELECT = {
     'TC I': 'TC_I',
